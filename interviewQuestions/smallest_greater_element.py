@@ -1,4 +1,4 @@
-def greaterElement(arr, n):
+def greater_element(arr, n):
     # Complete the function
     result = [1] * n
     for i in range(0, n):
@@ -12,4 +12,4 @@ def greaterElement(arr, n):
 
 
 arr = [13, 6, 7, 12]
-print(greaterElement(arr, 4))
+print(greater_element(arr, 4))
