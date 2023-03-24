@@ -1,0 +1,7 @@
+.idea/misc.xml
+.idea/pythonworkspace.iml
+integrationtesting/__pycache__/
+unittest/phonebook/__pycache__/
+.gitignore
+
+
