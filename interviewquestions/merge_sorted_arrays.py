@@ -1,14 +1,10 @@
 def merge_sorted_arrays(array_one, array_two) -> list:
-    sorted_list = list()
-    for item in array_one:
-        sorted_list.append(item)
 
-    for element in array_two:
-        sorted_list.append(element)
+    for item in array_two:
+        array_one.append(item)
+    array_one.sort()
 
-    sorted_list.sort()
-
-    return sorted_list
+    return array_one
 
 
 if __name__ == '__main__':
