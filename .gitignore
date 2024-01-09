@@ -3,5 +3,7 @@
 integrationtesting/__pycache__/
 unittest/phonebook/__pycache__/
 .gitignore
+.idea
+.gitignore
 
 
